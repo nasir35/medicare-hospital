@@ -12,16 +12,15 @@ const Footer = () => {
                 <div>
                     <h2 className="lg:text-2xl text-xl">&#10063; Useful links</h2>
                     <NavLink to="services">&emsp;&#128279; Our Services</NavLink><br />
-                    <NavLink to="blogs">&emsp;&#128279; Blogs</NavLink><br />
-                    <NavLink to="about">&emsp;&#128279; About Us</NavLink><br />
+                    <NavLink to="appointment">&emsp;&#128279; Appointment</NavLink><br />
+                    <NavLink to="register">&emsp;&#128279; Register Account</NavLink><br />
                 </div>
                 <div className="md:col-span-1 sm:col-span-2 sm:text-center text-left md:block sm:flex gap-x-4 items-center">
                     <h2 className="lg:text-2xl text-xl pb-2">&#10063; Connect With Us <span className="md:hidden inline-block">:</span></h2>
                     <div className="">
-                    <a href="#" target="_blank" className="mr-4 text-2xl sm:text-xl font-medium"><i className="fab fa-youtube text-red-700 bg-gradient-to-r from-white to-blue-300 hover:from-blue-300 hover:to-white transition px-3 py-1 rounded"></i></a>
-                    <a href="#" target="_blank" className="mr-4 text-2xl sm:text-xl font-medium"><i className="fab fa-facebook text-blue-700 bg-gradient-to-r from-white to-blue-300 hover:from-blue-300 hover:to-white transition px-3 py-1 rounded"></i></a>
-                    {/* <a href="#" target="_blank" className="mr-4 text-2xl font-medium"><i className="fab fa-twitter text-green-500 bg-gradient-to-r from-white to-blue-300 hover:from-blue-300 hover:to-white transition px-3 py-1 rounded"></i></a> */}
-                    <a href="#" target="_blank" className="text-2xl sm:text-xl font-medium"><i className="fab fa-instagram text-pink-500 bg-gradient-to-r from-white to-blue-300 hover:from-blue-300 hover:to-white transition px-3 py-1 rounded"></i></a>
+                    <a href="https://www.youtube.com/channel/UCxhLuohFxL5zH-Qd_Xvl_HQ" target="_blank" className="mr-4 text-2xl sm:text-xl font-medium"><i className="fab fa-youtube text-red-700 bg-gradient-to-r from-white to-blue-300 hover:from-blue-300 hover:to-white transition px-3 py-1 rounded"></i></a>
+                    <a href="https://www.facebook.com/programmingHero" target="_blank" className="mr-4 text-2xl sm:text-xl font-medium"><i className="fab fa-facebook text-blue-700 bg-gradient-to-r from-white to-blue-300 hover:from-blue-300 hover:to-white transition px-3 py-1 rounded"></i></a>
+                    <a href="https://www.instagram.com/i_am_nasir_358/" target="_blank" className="text-2xl sm:text-xl font-medium"><i className="fab fa-instagram text-pink-500 bg-gradient-to-r from-white to-blue-300 hover:from-blue-300 hover:to-white transition px-3 py-1 rounded"></i></a>
                     </div>
 
                 </div>

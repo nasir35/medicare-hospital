@@ -12,6 +12,7 @@ import Appointment from './pages/Appointment/Appointment';
 import Details from './pages/Home/Services-section/Details-page/Details';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import BookingSuccess from './pages/Appointment/BookingSuccess/BookingSuccess';
 
 function App() {
   return (
@@ -26,14 +27,17 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/services/:serviceId">
+            <PrivateRoute path="/services/:serviceId">
               <Details></Details>
-            </Route>
-            <Route path="/team">
+            </PrivateRoute>
+            <PrivateRoute path="/team">
               <Team></Team>
-            </Route>
+            </PrivateRoute>
             <PrivateRoute path="/appointment">
               <Appointment></Appointment>
+            </PrivateRoute>
+            <PrivateRoute path="/bookingSuccess">
+              <BookingSuccess></BookingSuccess>
             </PrivateRoute>
             <Route path="/login">
               <Login></Login>
